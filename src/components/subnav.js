@@ -1,12 +1,15 @@
 import React from 'react'
 
-function SubNavbar(data) {
+function Subnav({adj,name,btn}) {
   return (
-    <div className='flex flex-row px-8 pb-4'>
-    <div><span className=' text-gray-100 text-sm'>{data.adj}</span><br/> <span className=' font-bold text-lg text-white'>{data.ttl}</span></div> 
-    {data.btn && <div className=' text-blue-400 ml-auto text-sm self-center'>See others</div>}
-</div>
+    <div className='flex flex-row'>
+        <div className='self-center grid gap-1'>
+            <span className='text-sm text-gray-100'>{adj}</span>
+            <h2 className='text-xl text-white font-semibold'>{name}</h2>
+        </div>
+        {btn && <button className='ml-auto text-blue-500 text-sm self-center cursor-pointer'>See Other</button>}
+    </div>
   )
 }
 
-export default SubNavbar
+export default Subnav

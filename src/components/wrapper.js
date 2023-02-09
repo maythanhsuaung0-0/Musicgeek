@@ -1,14 +1,19 @@
 import React from 'react'
 import Leftsidebar from './leftsidebar'
-import Main from './main'
-import Rightsidebar from './rightsidebar'
+import Middlesection from './middlesection'
 
 function Wrapper() {
   return (
-    <div className=' grid grid-cols-[20%,auto,20%]'>
-      <Leftsidebar/>
-      <Main/>
-      <Rightsidebar/>
+    <div className='lg:grid lg:grid-cols-[20%,auto,20%]'> 
+        <div className=' hidden lg:block'>
+          <Leftsidebar/>
+        </div>
+        <div className=' bg-mirage'>
+          <Middlesection/>
+        </div>
+        <div className=' hidden lg:block'>
+          
+        </div>
     </div>
   )
 }
