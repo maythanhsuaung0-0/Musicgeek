@@ -6,7 +6,7 @@ import pf from '../img/1989.jpg'
 function Navbar() {
   return (
     <div className='w-full bg-ebony text-white'>
-        <div className='w-[90%] lg:w-[80%] m-auto flex flex-row gap-5 py-3'>
+        <div className='w-[90%] lg:w-[80%] m-auto flex flex-row gap-5 py-3 2xl:py-5'>
             <h1 className='self-center cursor-pointer'>Musicgeeks</h1>
         {/* hide in mobile */}
         <div className=' hidden md:flex md:self-center md:flex-row md:gap-2 md:bg-mirage px-2 py-1 md:m-auto md:rounded-full'>

@@ -24,12 +24,12 @@ function Leftsidebar() {
             <LeftsideLink icon={<MdOutlineFavoriteBorder/>} name={'Liked'}/>
             <LeftsideLink icon={<RxVideo/>} name={'Mv'}/>
         </div>
-        <div className='grid gap-4'>
+        <div className='grid gap-4 2xl:gap-6'>
             <div className='flex flex-row gap-1 text-blue-500 justify-center'><div className='text-lg self-center'><AiOutlineLine/></div><span className='text-xs'>Your List</span><div className='text-lg self-center'><AiOutlineLine/></div>
             <IoMdAddCircleOutline/>
             </div>
             <div className=' max-h-60 overflow-auto scrollbar-hide'>
-                <div className='text-gray-100 text-sm grid gap-3 justify-center px-2'>
+                <div className='text-gray-100 text-sm grid gap-3 2xl:gap-5 pl-10 px-2'>
                     <Listelement name={"Country's Music"} count={'20'}/>
                     <Listelement name={"The Jazz Music"} count={'20'}/>
                     <Listelement name={"The Classical Music"} count={'20'}/>
