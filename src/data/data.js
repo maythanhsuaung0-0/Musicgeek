@@ -29,6 +29,6 @@ const data=[
         'ttl':'pink venom',
         'artist':'BlackPink'
 
-    }
+    },
 ]
 export default data

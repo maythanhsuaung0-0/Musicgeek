@@ -1,6 +1,7 @@
 import React from 'react'
 import Leftsidebar from './leftsidebar'
 import Middlesection from './middlesection'
+import Rightsidebar from './rightsidebar'
 
 function Wrapper() {
   return (
@@ -12,7 +13,7 @@ function Wrapper() {
           <Middlesection/>
         </div>
         <div className=' hidden lg:block'>
-          
+          <Rightsidebar/>
         </div>
     </div>
   )

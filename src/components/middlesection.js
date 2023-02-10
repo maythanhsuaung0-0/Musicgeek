@@ -6,7 +6,7 @@ import Mv from './mv';
 import Playlist from './playlist';
 function Middlesection() {
   return (
-    <div className='py-5 2xl:py-8 grid gap-6 2xl:gap-10 w-[90%] m-auto'>
+    <div className='py-5 2xl:py-8 grid gap-6 2xl:gap-10 w-[90%] m-auto h-[90vh] 2xl:h-[92vh] scrollbar-hide overflow-auto'>
         <div>
             <Subnav adj={'Featured'} name={'Albums'} btn={true}/>
             <div className='mt-5 flex gap-3 2xl:gap-5 overflow-x-auto scrollbar-hide'>
